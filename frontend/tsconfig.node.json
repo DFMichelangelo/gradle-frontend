@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "vite.config.ts",
+    "generateGitInfoPlugin.ts",
+    "coverageProperties.ts",
+    "sonarqube-scanner.d.ts"
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "allowImportingTsExtensions": true
+    }
+  }
+}

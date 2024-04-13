@@ -1,0 +1,13 @@
+apply plugin: "org.sonarqube"
+
+sonar {
+    properties {
+        property 'sonar.projectKey', 'gradle-frontend'
+        property 'sonar.projectName', 'gradle-Frontend'
+        property 'sonar.host.url', '<LINK_TO_SONAR>'
+        property 'sonar.token', '<TOKEN>'
+        property "sonar.qualitygate.wait", false
+        property 'sonar.testExecutionReportPaths','frontend/coverage/sonar-report.xml'
+        // property 'sonar.test.inclusions', 'frontend/**/*'
+    }
+}

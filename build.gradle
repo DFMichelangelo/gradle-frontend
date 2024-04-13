@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id "org.sonarqube"  version "5.0.0.4638"
+}
+
+group 'com.gradlefrontend'
+version '1.0-SNAPSHOT'
+repositories {mavenCentral()}
+
+dependencies {}
+apply from: "$project.rootDir/sonar.gradle"
+
+allprojects {
+    apply plugin: 'java-library'
+    apply plugin: 'jacoco'
+}

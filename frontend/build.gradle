@@ -1,0 +1,10 @@
+repositories { mavenCentral() }
+
+sonar {
+    properties {
+        property 'sonar.sources', 'src'
+        property 'sonar.javascript.lcov.reportPaths', 'coverage/lcov.info'
+        property 'sonar.tests', 'tests'
+        property 'sonar.test.inclusions', '**/*.test.{ts,tsx}'
+    }
+}
