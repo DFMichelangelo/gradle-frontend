@@ -4,10 +4,11 @@ sonar {
     properties {
         property 'sonar.projectKey', 'gradle-frontend'
         property 'sonar.projectName', 'gradle-Frontend'
-        property 'sonar.host.url', '<LINK_TO_SONAR>'
-        property 'sonar.token', '<TOKEN>'
+        property 'sonar.host.url', 'HIDDEN'
+        property 'sonar.token', 'HIDDEN'
         property "sonar.qualitygate.wait", false
-        property 'sonar.testExecutionReportPaths','frontend/coverage/sonar-report.xml'
+//        property 'sonar.testExecutionReportPaths','frontend/coverage/sonar-report.xml'
+//        property 'sonar.scanner.dumpToFile','./out.props'
         // property 'sonar.test.inclusions', 'frontend/**/*'
     }
 }
