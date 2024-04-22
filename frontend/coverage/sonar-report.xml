@@ -1,5 +1,5 @@
 <testExecutions version="1">
-  <file path="./frontend\tests\main.test.tsx">
+  <file path="\tests\main.test.tsx">
     <testCase name="adds 1 + 2 to equal 3" duration="1" />
   </file>
 </testExecutions>
